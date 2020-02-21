@@ -21,3 +21,5 @@ urlpatterns = [
     url("^invoice/(?P<order_id>\d+)/resend%s$" % _slash,
         views.invoice_resend_email, name="shop_invoice_resend"),
 ]
+
+app_name = 'shop'
